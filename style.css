@@ -1,0 +1,149 @@
+/* nav{
+    background-color: black;
+    color: white;
+}
+
+.sidenav{ 
+    margin-left:60%;
+    display: inline;
+}
+
+.header{
+    margin-left: 30px;
+    display: inline;
+}
+
+.sidenav p{
+    display: inline;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image:url(https://img.freepik.com/free-photo/young-client-wearing-yellow-clothes-copy-space_23-2148674271.jpg?w=996&t=st=1716817459~exp=1716818059~hmac=54f2e49bcf493e44560f14667ef8844c6a8da0f5f5aee2de6da9827f9a53bd99) ;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.products {
+    padding: 2rem 0;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    flex: 1 1 30%;
+    box-sizing: border-box;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product-item .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
